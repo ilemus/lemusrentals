@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Cities() {
   return (
@@ -6,7 +7,7 @@ export default function Cities() {
       <div className="col-span-1 flex justify-center items-center">
         <div className="relative w-96 h-96 group">
           <div className="absolute inset-0 flex justify-center items-center">
-            <img 
+            <Image 
               src="/Dallas.png" 
               alt="Dallas"
               className="w-full h-full object-cover rounded-2xl opacity-85 transition-all duration-300 group-hover:blur-sm group-hover:opacity-60"
@@ -20,7 +21,7 @@ export default function Cities() {
       <div className="col-span-1 flex justify-center items-center">
         <div className="relative w-96 h-96 group">
           <div className="absolute inset-0 flex justify-center items-center">
-            <img 
+            <Image 
               src="/Seattle.png" 
               alt="Seattle"
               className="w-full h-full object-cover rounded-2xl opacity-85 transition-all duration-300 group-hover:blur-sm group-hover:opacity-60"
