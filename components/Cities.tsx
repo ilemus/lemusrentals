@@ -20,7 +20,7 @@ export default function Cities() {
           </div>
         </div>
       </div>
-      /**
+      {/**
       <div className="col-span-1 flex justify-center items-center">
         <div className="relative w-96 h-96 group">
           <div className="absolute inset-0 flex justify-center items-center">
@@ -37,7 +37,7 @@ export default function Cities() {
           </div>
         </div>
       </div>
-       */
+       */}
     </div>
   )
 }
