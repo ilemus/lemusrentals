@@ -7,8 +7,7 @@ export default function Hero() {
         Lemus Rentals
       </h1>
       <p className="text-xl text-gray-600 dark:text-gray-300 mb-12 font-light">
-        Short and Long term rentals in Dallas and Seattle.<br />
-        Growing equity to help provide affordable rentals for low and middle income households.
+        Long term rentals in Dallas.<br />
       </p>
       
       {/* <div className="flex justify-center space-x-6">

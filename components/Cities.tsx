@@ -11,6 +11,8 @@ export default function Cities() {
               src="/Dallas.png" 
               alt="Dallas"
               className="w-full h-full object-cover rounded-2xl opacity-85 transition-all duration-300 group-hover:blur-sm group-hover:opacity-60"
+              width={384}
+              height={384}
             />
           </div>
           <div className="relative flex justify-center items-center h-full">
@@ -18,6 +20,7 @@ export default function Cities() {
           </div>
         </div>
       </div>
+      /**
       <div className="col-span-1 flex justify-center items-center">
         <div className="relative w-96 h-96 group">
           <div className="absolute inset-0 flex justify-center items-center">
@@ -25,6 +28,8 @@ export default function Cities() {
               src="/Seattle.png" 
               alt="Seattle"
               className="w-full h-full object-cover rounded-2xl opacity-85 transition-all duration-300 group-hover:blur-sm group-hover:opacity-60"
+              width={384}
+              height={384}
             />
           </div>
           <div className="relative flex justify-center items-center h-full">
@@ -32,6 +37,7 @@ export default function Cities() {
           </div>
         </div>
       </div>
+       */
     </div>
   )
 }
